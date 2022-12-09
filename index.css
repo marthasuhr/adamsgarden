@@ -18,7 +18,9 @@ main {
   margin: 0 7.5%;
 }
 
-/********** mobil **********/
+/********** MOBIL **********/
+
+/************** Del 1 grid **********/
 
 .velkommen_grid {
   display: grid;
@@ -36,7 +38,9 @@ main {
   color: wheat;
 }
 
-.knapper_grid {
+/************* del 2 grid *****************/
+
+.grid_del2 {
   display: grid;
 }
 
@@ -51,26 +55,18 @@ main {
   place-self: center;
 }
 
+.grid_del3 {
+  display: grid;
+}
 .grid_2,
 .knap2 {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 1;
 }
 
 .knap2 {
   text-align: center;
   place-self: center;
-}
-
-.falles_grid {
-  display: grid;
-}
-
-.omos,
-.kontakt,
-.agurk {
-  grid-column: 1;
-  grid-row: 1;
 }
 
 /********** knap ***********/
@@ -104,15 +100,31 @@ main {
     justify-content: space-around;
   }
 
-  .grid_1 {
+  .grid_del2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
-  .grid_2 {
+  .grid_del3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grid_del4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .knap1 {
+    display: grid;
+    grid-column: 2;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-column: 2;
   }
 }
