@@ -58,6 +58,7 @@ main {
 .grid_del3 {
   display: grid;
 }
+
 .grid_2,
 .knap2 {
   grid-column: 1;
