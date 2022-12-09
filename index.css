@@ -14,12 +14,105 @@ img {
   display: block;
 }
 
-/***********/
-@media (max-width: 600px) {
+main {
+  margin: 0 7.5%;
+}
+
+/********** mobil **********/
+
+.velkommen_grid {
+  display: grid;
+}
+
+.h1_forside,
+.pic_forside {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.h1_forside {
+  text-align: center;
+  place-self: center;
+  color: wheat;
+}
+
+.knapper_grid {
+  display: grid;
+}
+
+.grid_1,
+.knap1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.knap1 {
+  text-align: center;
+  place-self: center;
+}
+
+.grid_2,
+.knap2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.knap2 {
+  text-align: center;
+  place-self: center;
+}
+
+.falles_grid {
+  display: grid;
+}
+
+.omos,
+.kontakt,
+.agurk {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/********** knap ***********/
+
+.knap1,
+.knap2,
+.omos,
+.kontakt {
+  background-color: blanchedalmond;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  border: 2px solid #2a3c24;
+}
+
+.knap:hover {
+  color: crimson;
+  background-color: aqua;
+}
+
+/*********** website ********/
+@media (min-width: 800px) {
   nav {
     display: none;
   }
+
   header {
     justify-content: space-around;
+  }
+
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
