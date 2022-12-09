@@ -1,0 +1,25 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.4;
+  font-family: fjallaonne, sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/***********/
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  header {
+    justify-content: space-around;
+  }
+}
