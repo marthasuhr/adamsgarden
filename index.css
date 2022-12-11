@@ -22,8 +22,9 @@ main {
 
 /************** Del 1 grid **********/
 
-.velkommen_grid {
+.grid_del1 {
   display: grid;
+  margin: 1rem;
 }
 
 .h1_forside,
@@ -42,6 +43,7 @@ main {
 
 .grid_del2 {
   display: grid;
+  margin: 1rem;
 }
 
 .grid_1,
@@ -57,6 +59,7 @@ main {
 
 .grid_del3 {
   display: grid;
+  margin: 1rem;
 }
 
 .grid_2,
@@ -68,6 +71,24 @@ main {
 .knap2 {
   text-align: center;
   place-self: center;
+}
+
+/************** GRID DEL 4 **************/
+
+.grid_del4 {
+  display: grid;
+  margin: 1rem;
+}
+
+.familie,
+.grid_slut {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.grid_slut {
+  place-self: end center;
+  text-align: center;
 }
 
 /********** knap ***********/
@@ -88,7 +109,7 @@ main {
 
 .knap:hover {
   color: crimson;
-  background-color: aqua;
+  background-color: blanchedalmond;
 }
 
 /*********** website ********/
@@ -115,13 +136,14 @@ main {
 
   .grid_del4 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
 
   .knap1 {
     display: grid;
     grid-column: 2;
+    background-color: blanchedalmond;
   }
 
   .grid_2 {
