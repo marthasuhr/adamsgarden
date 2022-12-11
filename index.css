@@ -48,6 +48,7 @@ main {
 
 .grid_1,
 .knap1 {
+  display: grid;
   grid-column: 1;
   grid-row: 1;
 }
@@ -63,7 +64,9 @@ main {
 }
 
 .grid_2,
-.knap2 {
+.knap2,
+.farve {
+  display: grid;
   grid-column: 1;
   grid-row: 1;
 }
@@ -82,12 +85,13 @@ main {
 
 .familie,
 .grid_slut {
+  display: grid;
   grid-column: 1;
   grid-row: 1;
 }
 
 .grid_slut {
-  place-self: end center;
+  place-self: center;
   text-align: center;
 }
 
@@ -143,11 +147,20 @@ main {
   .knap1 {
     display: grid;
     grid-column: 2;
-    background-color: blanchedalmond;
   }
 
   .grid_2 {
     display: grid;
     grid-column: 2;
+  }
+
+  .grid_slut {
+    display: grid;
+    place-self: center right;
+    margin-right: 10rem;
+  }
+
+  .farve {
+    background-color: #fcf6b1;
   }
 }
