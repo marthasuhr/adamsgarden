@@ -5,18 +5,7 @@ img {
     object-fit: cover;
     align-self: stretch;
   }
-  
-  
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    margin-bottom: 200px;
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px ;
 
-  }
 
   .overskrift {
     text-align: center;
@@ -34,6 +23,7 @@ img {
 .container {
     display: grid;
     margin: 1rem;
+    opacity: 0.5;
 }
 
 .overskrift, .billede {
@@ -45,9 +35,33 @@ img {
     text-align: center;
     place-self: center;
     color: #FFFFFF;
+    font-size: 30px;
 }
 
 
   h2{
     text-align: center;
+  }
+
+  /************* website ***********/
+  @media (min-width: 800px) {
+
+
+  
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px ;
+  }
+
+  .overskrift {
+    text-align: center;
+    place-self: center;
+    color: #FFFFFF;
+    font-size: 60px;
+}
   }
