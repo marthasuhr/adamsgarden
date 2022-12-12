@@ -15,7 +15,7 @@ img {
 }
 
 main {
-  margin: 0 1rem;
+  margin: 0 7.5%;
 }
 
 /********** MOBIL **********/
@@ -44,6 +44,11 @@ main {
 
   border-bottom: 2px solid white;
   border-top: 2px solid white;
+  z-index: 10;
+}
+
+.pic_forside {
+  opacity: 0.7;
 }
 
 /************* del 2 grid *****************/
