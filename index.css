@@ -128,13 +128,12 @@ a {
 .knap2:hover,
 .omos:hover,
 .kontakt:hover {
-  color: crimson;
   font-weight: 700;
   background-color: #fcf6b1;
 }
 
 a:hover {
-  color: red;
+  color: white;
 }
 
 /*********** website ********/
@@ -145,6 +144,10 @@ a:hover {
 
   header {
     justify-content: space-around;
+  }
+
+  .h1_forside {
+    font-size: 2rem;
   }
 
   .grid_del2 {
@@ -215,12 +218,11 @@ a:hover {
   .knap2:hover,
   .omos:hover,
   .kontakt:hover {
-    color: white;
+    font-weight: 700;
     background-color: #fcf6b1;
-    font-weight: 1000;
   }
 
-  .familie {
-    opacity: 100;
+  a:hover {
+    color: white;
   }
 }
