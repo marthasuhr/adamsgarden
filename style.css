@@ -13,6 +13,10 @@
     display: none;
   }
 
+  .webskjul {
+    display: none;
+  }
+
   .footer {
     display: grid;
     grid-template-columns: 1fr;

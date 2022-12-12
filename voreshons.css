@@ -11,28 +11,15 @@
     margin: 0 7.5%;
   }
 
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-
-  .grid_1-1-1-1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-bottom: 5%;
-  }
-
   .overskrift {
     text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .underoverskrift {
     padding: 10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #a4b09f;
   }
 
@@ -103,12 +90,6 @@
     margin: 0 7.5%;
   }
 
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-
   .grid_1-1-1-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -119,12 +100,12 @@
   .overskrift {
     text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .underoverskrift {
     padding: 10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #a4b09f;
   }
 
@@ -132,7 +113,7 @@
     padding: 5%;
     background-color: #eab486;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     order: -1;
   }
 
