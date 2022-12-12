@@ -1,0 +1,228 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.4;
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  margin: 0 1rem;
+}
+
+/********** MOBIL **********/
+
+/************** Del 1 grid **********/
+
+.grid_del1 {
+  display: grid;
+  margin: 1rem;
+}
+
+.h1_forside,
+.pic_forside {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.h1_forside {
+  text-align: center;
+  place-self: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 0.5rem;
+  margin: 0.5rem;
+
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+/************* del 2 grid *****************/
+
+.grid_del2 {
+  display: grid;
+  margin: 1rem;
+}
+
+.grid_1,
+.knap1,
+.farve1 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.knap1 {
+  text-align: center;
+  place-self: center;
+}
+
+.grid_del3 {
+  display: grid;
+  margin: 1rem;
+}
+
+.grid_2,
+.knap2,
+.farve2 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.knap2 {
+  text-align: center;
+  place-self: center;
+}
+
+/************** GRID DEL 4 **************/
+
+.grid_del4 {
+  display: grid;
+  margin: 1rem;
+}
+
+.familie,
+.grid_slut {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.grid_slut {
+  place-self: center;
+  text-align: center;
+}
+
+/********** knap ***********/
+
+.knap1,
+.knap2,
+.omos,
+.kontakt {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 1rem;
+  margin: 2rem;
+
+  border-radius: 0px;
+  display: grid;
+  border: 3px solid white;
+}
+
+a {
+  color: white;
+}
+
+.knap1:hover,
+.knap2:hover,
+.omos:hover,
+.kontakt:hover {
+  font-weight: 700;
+  background-color: #fcf6b1;
+}
+
+a:hover {
+  color: white;
+}
+
+/*********** website ********/
+@media (min-width: 800px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  .h1_forside {
+    font-size: 2rem;
+  }
+
+  .grid_del2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grid_del3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grid_del4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 2rem;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-column: 2;
+    margin-left: 0.5rem;
+  }
+
+  .grid_1 {
+    display: grid;
+
+    margin-right: 0.5rem;
+  }
+
+  .grid_slut {
+    display: grid;
+    place-self: center right;
+    margin-right: 10rem;
+  }
+
+  .farve1 {
+    display: grid;
+    grid-column: 2;
+    background-color: #fcf6b1;
+    margin-left: 0.5rem;
+  }
+
+  .farve2 {
+    background-color: #fcf6b1;
+    margin-right: 0.5rem;
+  }
+
+  .knap1,
+  .knap2,
+  .omos,
+  .kontakt {
+    background-color: #fcf6b1;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 0px;
+    display: grid;
+    border: 3px solid white;
+  }
+
+  .knap1:hover,
+  .knap2:hover,
+  .omos:hover,
+  .kontakt:hover {
+    font-weight: 700;
+    background-color: #fcf6b1;
+  }
+
+  a:hover {
+    color: white;
+  }
+}
