@@ -1,0 +1,53 @@
+/******* generalt********/
+
+img {
+    width: 100%;
+    object-fit: cover;
+    align-self: stretch;
+  }
+  
+  
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px ;
+
+  }
+
+  .overskrift {
+    text-align: center;
+   place-self:center ;
+  }
+
+  .col_1{
+    background-color: #DCDAC4;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding: 30px;
+}
+
+.container {
+    display: grid;
+    margin: 1rem;
+}
+
+.overskrift, .billede {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.overskrift {
+    text-align: center;
+    place-self: center;
+    color: #FFFFFF;
+}
+
+
+  h2{
+    text-align: center;
+  }
