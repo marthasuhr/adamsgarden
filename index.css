@@ -15,7 +15,7 @@ img {
 }
 
 main {
-  margin: 0 7.5%;
+  margin: 0 1rem;
 }
 
 /********** MOBIL **********/
@@ -47,7 +47,8 @@ main {
 }
 
 .grid_1,
-.knap1 {
+.knap1,
+.farve1 {
   display: grid;
   grid-column: 1;
   grid-row: 1;
@@ -65,7 +66,7 @@ main {
 
 .grid_2,
 .knap2,
-.farve {
+.farve2 {
   display: grid;
   grid-column: 1;
   grid-row: 1;
@@ -104,11 +105,13 @@ main {
   background-color: blanchedalmond;
   font-size: 2rem;
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem;
   text-decoration: none;
-  border-radius: 12px;
-  display: inline-block;
-  border: 2px solid #2a3c24;
+  border-radius: 0px;
+  display: grid;
+  border: 3px solid white;
+
+  color: white;
 }
 
 .knap:hover {
@@ -144,14 +147,16 @@ main {
     grid-template-rows: 1fr;
   }
 
-  .knap1 {
-    display: grid;
-    grid-column: 2;
-  }
-
   .grid_2 {
     display: grid;
     grid-column: 2;
+    margin-left: 0.5rem;
+  }
+
+  .grid_1 {
+    display: grid;
+
+    margin-right: 0.5rem;
   }
 
   .grid_slut {
@@ -160,7 +165,34 @@ main {
     margin-right: 10rem;
   }
 
-  .farve {
+  .farve1 {
+    display: grid;
+    grid-column: 2;
+    background-color: #fcf6b1;
+    margin-left: 0.5rem;
+  }
+
+  .farve2 {
+    background-color: #fcf6b1;
+    margin-right: 0.5rem;
+  }
+
+  .knap1,
+  .knap2,
+  .omos,
+  .kontakt {
+    background-color: #fcf6b1;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 0px;
+    display: grid;
+    border: 3px solid white;
+  }
+
+  .knap:hover {
+    color: white;
     background-color: #fcf6b1;
   }
 }
