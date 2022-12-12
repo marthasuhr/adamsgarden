@@ -6,7 +6,7 @@
 }
 body {
   line-height: 1.4;
-  font-family: fjallaonne, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 img {
   width: 100%;
@@ -36,7 +36,14 @@ main {
 .h1_forside {
   text-align: center;
   place-self: center;
-  color: wheat;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+
+  padding: 0.5rem;
+  margin: 0.5rem;
+
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 }
 
 /************* del 2 grid *****************/
@@ -102,21 +109,32 @@ main {
 .knap2,
 .omos,
 .kontakt {
-  background-color: blanchedalmond;
   font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+
   padding: 1rem;
   margin: 2rem;
-  text-decoration: none;
+
   border-radius: 0px;
   display: grid;
   border: 3px solid white;
+}
 
+a {
   color: white;
 }
 
-.knap:hover {
+.knap1:hover,
+.knap2:hover,
+.omos:hover,
+.kontakt:hover {
   color: crimson;
-  background-color: blanchedalmond;
+  font-weight: 700;
+  background-color: #fcf6b1;
+}
+
+a:hover {
+  color: red;
 }
 
 /*********** website ********/
@@ -145,6 +163,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    margin-bottom: 2rem;
   }
 
   .grid_2 {
@@ -182,6 +201,7 @@ main {
   .omos,
   .kontakt {
     background-color: #fcf6b1;
+    font-family: "Courier New", Courier, monospace;
     font-size: 2rem;
     padding: 0.5rem;
     margin: 1rem;
@@ -191,8 +211,16 @@ main {
     border: 3px solid white;
   }
 
-  .knap:hover {
+  .knap1:hover,
+  .knap2:hover,
+  .omos:hover,
+  .kontakt:hover {
     color: white;
     background-color: #fcf6b1;
+    font-weight: 1000;
+  }
+
+  .familie {
+    opacity: 100;
   }
 }
