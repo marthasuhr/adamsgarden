@@ -1,0 +1,78 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.4;
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  margin: 0 7.5%;
+}
+
+/*************** style *********************/
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+.col-1 {
+  background-color: #dcdac4;
+  margin: 1rem;
+}
+
+.col-2 {
+  background-color: #f9bba3;
+  margin: 1rem;
+}
+
+.col-3 {
+  background-color: #eab486;
+  margin: 1rem;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col-1 {
+    background-color: #dcdac4;
+    margin: 1rem;
+  }
+
+  .col-2 {
+    background-color: #f9bba3;
+    margin: 1rem;
+  }
+
+  .col-3 {
+    background-color: #eab486;
+    margin: 1rem;
+  }
+}
