@@ -8,8 +8,13 @@
   z-index: 11;
 }
 
+header a:hover {
+  color: black;
+}
+
 header a {
   font-family: "Raleway";
+  color: #dcdac4;
 }
 
 h1,
