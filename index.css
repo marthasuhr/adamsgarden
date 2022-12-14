@@ -21,6 +21,10 @@ a {
   font-family: "Raleway";
 }
 
+header ul li a {
+  color: black;
+}
+
 /********** MOBIL **********/
 
 /************** Del 1 grid **********/
