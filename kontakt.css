@@ -36,16 +36,19 @@ p {
 .col-1 {
   background-color: #dcdac4;
   margin: 1rem;
+  padding: 1rem 0;
 }
 
 .col-2 {
   background-color: #f9bba3;
   margin: 1rem;
+  padding: 1rem 0;
 }
 
 .col-3 {
   background-color: #eab486;
   margin: 1rem;
+  padding: 1rem 0;
 }
 
 label,
@@ -54,6 +57,43 @@ textarea,
 select,
 button {
   display: block;
+}
+
+.tider_layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tider_layout2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.align {
+  text-align: center;
+}
+
+.form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+.paddington_bjorn {
+  padding-bottom: 1rem;
+}
+
+.farve {
+  background-color: #dcdac4;
+  font-size: 1rem;
+  color: white;
+  padding: 0.3rem;
+}
+
+.map-grid {
 }
 
 @media (min-width: 800px) {
