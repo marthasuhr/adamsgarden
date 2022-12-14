@@ -14,7 +14,12 @@ header a:hover {
 
 header a {
   font-family: "Raleway";
+  text-transform: uppercase;
   color: #dcdac4;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 h1,
