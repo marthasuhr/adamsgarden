@@ -5,6 +5,7 @@
   top: 0;
   transition: all 0.2s ease-in-out;
   background-color: white;
+  z-index: 11;
 }
 
 .list {
