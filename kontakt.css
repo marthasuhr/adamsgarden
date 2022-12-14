@@ -94,6 +94,19 @@ button {
 }
 
 .map-grid {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.grid-1 {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+  .map-grid {
+    width: fit-content;
+  }
 }
 
 @media (min-width: 800px) {
