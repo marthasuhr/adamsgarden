@@ -51,6 +51,10 @@
   text-decoration: none;
 }
 
+.h1 h2 {
+  font-family: 'Raleway'
+}
+
 /** Footer **/
 footer {
   background-color: #dcdac4;
