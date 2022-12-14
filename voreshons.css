@@ -7,8 +7,8 @@
 
 img {
   width: 100%;
-  object-fit: cover;
-  align-self: stretch;
+  height: auto;
+  display: block;
 }
 
 body {
@@ -19,9 +19,10 @@ main {
   margin: 0 7.5%;
 }
 
-.overskrift {
+h1 {
   text-align: center;
   margin-bottom: 4%;
+  font-size: 2rem;
 }
 
 .underoverskrift {
@@ -112,7 +113,7 @@ main {
 
 /**************************** WEB ***************************/
 @media (min-width: 800px) {
-  .overskrift {
+  h1 {
     font-size: 3rem;
   }
 
@@ -127,14 +128,14 @@ main {
   .pair {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 1rem;
     margin-bottom: 4%;
   }
 
   .galleri {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 1rem;
     margin-bottom: 4%;
   }
 

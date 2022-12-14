@@ -24,7 +24,7 @@ img {
 
 .container {
   display: grid;
-  margin: 1rem;
+  margin: 1rem 0;
   opacity: 0.5;
 }
 
@@ -32,6 +32,12 @@ img {
 .billede {
   grid-column: 1;
   grid-row: 1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 4%;
+  font-size: 2rem;
 }
 
 h2 {
@@ -45,10 +51,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    margin-bottom: 200px;
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 1rem 0;
   }
 
   .overskrift {
@@ -57,5 +60,9 @@ h2 {
     color: white;
     font-size: 60px;
     z-index: 10;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }

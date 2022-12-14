@@ -31,7 +31,7 @@ header ul li a {
 
 .grid_del1 {
   display: grid;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .h1_forside,
@@ -60,7 +60,7 @@ header ul li a {
 
 .grid_del2 {
   display: grid;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .grid_1,
@@ -78,7 +78,7 @@ header ul li a {
 
 .grid_del3 {
   display: grid;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .grid_2,
@@ -98,7 +98,7 @@ header ul li a {
 
 .grid_del4 {
   display: grid;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .familie,
