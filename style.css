@@ -8,8 +8,18 @@
   z-index: 11;
 }
 
+header a:hover {
+  color: black;
+}
+
 header a {
   font-family: "Raleway";
+  text-transform: uppercase;
+  color: #dcdac4;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 h1,
