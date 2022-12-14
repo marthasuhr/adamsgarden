@@ -12,7 +12,24 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <div class="burger_menu">
+            <div class="logo">
+                <a href="index.html"><img src="pics/logo_burger.svg" alt=""></a>
+            </div>
+
+            <nav class="main_menu">
+
+                <ul>
+                    <button class="burger_menu_knap">Menu</button>
+                    <li><a href="voreshons.html">Vores høns</a></li>
+                    <li><a href="gardbutikken.html">Gårdbutikken</a></li>
+                    <li><a href="omadamsgarden.html">Om Adamsgården</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <ul class="list">
             <li class="item"><a href="voreshons.html" class="link">Vores Høns</a></li>
             <li class="item"><a href="gardbutikken.html" class="link">Gårdbutikken</a></li>
@@ -26,46 +43,113 @@
         <h1>Kontakt</h1>
 
         <div class="grid-1">
-            <div class="col-1">
-                <h2>Åbningstider vinter</h2>
-                <p>Åbningstider vinter</p>
-            </div>
             <div class="col-2">
                 <h2>Åbningstider sommer</h2>
-                <p>Åbningstider sommer</p>
+                <div class="tider_layout">
+                    <p>Mandag-Fredag <br>
+                        Gårdbutik: <br>
+                        Æg & grønt: <br></p>
+                    <p><br>
+                        15:30 - 18:00 <br>
+                        09:00 - 15:30 <br></p>
+                </div>
+                <div class="tider_layout">
+                    <p>Lørdag-Søndag <br>
+                        Gårdbutik: <br>
+                        Æg & grønt: <br></p>
+                    <p><br>
+                        09:00 - 18:00 <br>
+                        09:00 - 15:30 <br></p>
+                </div>
+            </div>
+            <div class="col-1">
+                <h2>Åbningstider vinter</h2>
+                <div class="tider_layout">
+                    <p>Mandag-Torsdag <br>
+                        Gårdbutik: <br>
+                        Æg: <br></p>
+                    <p><br>
+                        -- Lukket -- <br>
+                        07:00 - 22:00 <br></p>
+                </div>
+                <div class="tider_layout">
+                    <p>Fredag <br>
+                        Gårdbutik: <br>
+                        Æg & grønt: <br></p>
+                    <p><br>
+                        13:00 - 17:30 <br>
+                        07:00 - 22:00 <br></p>
+                </div>
+                <div class="tider_layout">
+                    <p>Lørdag <br>
+                        Gårdbutik: <br>
+                        Æg & grønt: <br></p>
+                    <p><br>
+                        09:30 - 13:00 <br>
+                        07:00 - 22:00 <br></p>
+                </div>
+                <div class="tider_layout">
+                    <p>Søndag <br>
+                        Gårdbutik: <br>
+                        Æg & grønt: <br></p>
+                    <p><br>
+                        -- Lukket -- <br>
+                        07:00 - 22:00 <br></p>
+                </div>
             </div>
             <div class="col-3">
-                <h2>Kontakt os</h2>
-                <p>Kontakt os</p>
+                <div class="tider_layout2">
+                    <h2>Kontakt os</h2>
+                    <div>
+                        <p class="align">Adamsgården</p>
+                        <p class="align">Gårdbutik og æggesalg</p>
+
+                    </div>
+                    <div>
+                        <p class="align">Aggersvoldvej 3a</p>
+                        <p class="align"> 4450 Jyderup</p>
+                    </div>
+
+                    <div>
+                        <p class="align">Tlf. +45 22 26 45 50 <br></p>
+                        <p class="align">Email: mail@adamsgaarden.dk <br></p>
+                        <p class="align"> Facebook: <a href="www.facebook.com/adamsgaarden">Adamsgården</a> </p>
+                    </div>
+                </div>
             </div>
 
         </div>
 
 
-        <form>
+        <form class="form">
             <label for="full-name">Fulde navn</label>
 
             <input id="full-name" name="fname" type="text">
+            <span class="paddington_bjorn"></span>
 
             <label for="email">E-mail</label>
 
             <input id="email" name="email" type="email">
+            <span class="paddington_bjorn"></span>
 
-
-
-            <div class="form-felt">
+            <div>
                 <label>
                     Antal
-                    <select name="liste">
+                    <select class="farve" name="liste">
                         <option value="antal">Vælg antal æg</option>
-                        <option value="6">6 æg</option>
-                        <option value="12">12 æg</option>
-                        <option value="30">30 æg</option>
+                        <option value="6">6 æg (18 kr.)</option>
+                        <option value="10">10 æg (30 kr.)</option>
+                        <option value="12">12 æg (36 kr.)</option>
+                        <option value="15">15 æg (45 kr.)</option>
+                        <option value="20">20 æg (60 kr.)</option>
+                        <option value="30">30 æg (70 kr.)</option>
                     </select>
                 </label>
             </div>
+            <span class="paddington_bjorn"></span>
+            <span class="paddington_bjorn"></span>
             <br>
-            <button>Indsend</button>
+            <button class="farve">Reserver!</button>
         </form>
 
 
@@ -86,11 +170,83 @@
     <footer>
         <div class="footer">
             <div>
+                <p class="fp1">Åbningstider sommer</p>
+                <p class="fp2">13. maj <span class="webskjul"><br></span>- 3. juni <br> <span class="mobilskjul">
+                        Gårdbutik (æg, bær & grøntsager)</span>
+                </p>
+                <div class="footer_layout">
+                    <p>
+                        Mandag: <br>
+                        Tirsdag: <br>
+                        Onsdag: <br>
+                        Torsdag: <br>
+                        Fredag: <br>
+                        Lørdag: <br>
+                        Søndag: <br>
+                    </p>
+                    <p>
+                        15:30 - 18:00 <br>
+                        15:30 - 18:00 <br>
+                        15:30 - 18:00 <br>
+                        15:30 - 18:00 <br>
+                        15:30 - 18:00 <br>
+                        09:00 - 18:00 <br>
+                        09:00 - 18:00 <br>
+                    </p>
+                    <p class="mobilskjul">
+                        (09:00 - 15:30) <br>
+                        (09:00 - 15:30) <br>
+                        (09:00 - 15:30) <br>
+                        (09:00 - 15:30) <br>
+                        (09:00 - 15:30) <br>
+                        (09:00 - 15:30) <br>
+                        (09:00 - 15:30) <br>
+                    </p>
+                </div>
+
+            </div>
+            <div>
+                <p class="fp1">Åbningstider vinter</p>
+                <p class="fp2">11. november <span class="webskjul"><br></span>- 23. december <br> <span
+                        class="mobilskjul">
+                        Gårdbutik (æg)</span></p>
+
+                <div class="footer_layout">
+                    <p>
+                        Mandag: <br>
+                        Tirsdag: <br>
+                        Onsdag: <br>
+                        Torsdag: <br>
+                        Fredag: <br>
+                        Lørdag: <br>
+                        Søndag: <br>
+                    </p>
+                    <p>
+                        --- Lukket --- <br>
+                        --- Lukket --- <br>
+                        --- Lukket --- <br>
+                        --- Lukket --- <br>
+                        13:00 - 17:30 <br>
+                        09:30 - 13:00 <br>
+                        --- Lukket --- <br>
+                    </p>
+                    <p class="mobilskjul">
+                        (07:00 - 22:00) <br>
+                        (07:00 - 22:00) <br>
+                        (07:00 - 22:00) <br>
+                        (07:00 - 22:00) <br>
+                        (07:00 - 22:00) <br>
+                        (07:00 - 22:00) <br>
+                        (07:00 - 22:00) <br>
+                    </p>
+                </div>
+            </div>
+            <div>
                 <p class="fp1">Kontaktinformationer
                 </p>
 
 
-                <p class="fp2">Adamsgården <br> Gårdbutik og æg</p>
+                <p class="fp2">Adamsgården <br> Gårdbutik og æggesalg</p>
 
                 <p>Aggersvoldvej 3a <br>
                     4450 Jyderup</p>
@@ -99,47 +255,12 @@
                     Email: mail@adamsgaarden.dk <br>
                     Facebook: <a href="www.facebook.com/adamsgaarden">Adamsgården</a> </p>
             </div>
-            <div>
-                <p class="fp1">Åbningstider sommer</p>
-                <p class="fp2">1. juni - 31. august <br> Gårdbutik (æg)</p>
-
-                <p>
-                    Mandag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Tirsdag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Onsdag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Torsdag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Fredag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Fredag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Fredag: 13:00 - 17:30&nbsp; (07:00 - 22:00) <br>
-                    Lørdag: 09:30 - 13:00&nbsp; (07:00 - 22:00) <br>
-                    Søndag: Lukket&nbsp; (07:00 - 22:00)<br>
-                </p>
-
-            </div>
-            <div>
-                <p class="fp1">Åbningstider vinter</p>
-                <p class="fp2">11. november - 23. december <br> Gårdbutik (æg)</p>
-
-                <p>
-                    Mandag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Tirsdag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Onsdag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Torsdag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Fredag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Fredag: Lukket&nbsp; (07:00 - 22:00)<br>
-                    Fredag: 13:00 - 17:30&nbsp; (07:00 - 22:00) <br>
-                    Lørdag: 09:30 - 13:00&nbsp; (07:00 - 22:00) <br>
-                    Søndag: Lukket&nbsp; (07:00 - 22:00)<br>
-                </p>
-            </div>
         </div>
-
-        <hr>
-
         <div>
             <p class="fp3">©2022 Adamsgården Gårdbutik og Æggesalg</p>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
