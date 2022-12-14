@@ -6,7 +6,20 @@
   transition: all 0.2s ease-in-out;
   background-color: white;
   z-index: 11;
-  
+}
+
+header a {
+  font-family: "Raleway";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway";
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
 }
 
 .list {
@@ -52,7 +65,7 @@
 }
 
 .h1 h2 {
-  font-family: 'Raleway'
+  font-family: "Raleway";
 }
 
 /** Footer **/
