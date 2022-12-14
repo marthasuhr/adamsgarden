@@ -10,16 +10,18 @@ img {
 
 
   .overskrift {
-    text-align: center;
+   text-align: center;
    place-self:center ;
-   font-family: 'Raleway'
+   font-family: 'Raleway';
+   z-index: 10;
+
+   
   }
 
   .col_1{
     background-color: #DCDAC4;
     color: #FFFFFF;
-    margin-left: 20px;
-    margin-right: 25px;
+   
     padding: 30px;
 }
 
@@ -37,7 +39,7 @@ img {
 .overskrift {
     text-align: center;
     place-self: center;
-    color: #FFFFFF;
+    color: black;
     font-size: 30px;
 }
 
@@ -67,7 +69,8 @@ img {
   .overskrift {
     text-align: center;
     place-self: center;
-    color: #FFFFFF;
+    color: white;
     font-size: 60px;
+    z-index: 10;
 }
   }
