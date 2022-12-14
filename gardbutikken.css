@@ -7,6 +7,11 @@
 body {
   line-height: 1.4;
 }
+
+p {
+  padding: 1rem;
+}
+
 img {
   width: 100%;
   height: auto;
