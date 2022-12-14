@@ -1,5 +1,7 @@
 /******* generalt********/
-
+main{
+    margin: 0 7.5%;
+}
 img {
     width: 100%;
     object-fit: cover;
