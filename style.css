@@ -29,7 +29,8 @@ h3 {
 }
 
 p {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-spacing: 5px;
 }
 
 .list {
